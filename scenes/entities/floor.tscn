@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/kenney/tappy-plane/PNG/groundDirt.png" type="Texture" id=1]
+
+
+
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 403.992, 36.1975 )
+
+[node name="Floor" type="StaticBody2D"]
+position = Vector2( 0, 480 )
+
+[node name="FloorSprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( 0, -71 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 404, -35.5 )
+shape = SubResource( 1 )
