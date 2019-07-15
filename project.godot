@@ -19,6 +19,10 @@ config/name="Flappy Bird"
 run/main_scene="res://scenes/main.tscn"
 config/icon="res://assets/kenney/tappy_plane/PNG/Planes/planeBlue1.png"
 
+[autoload]
+
+Constants="*res://scripts/auto_load/constants.gd"
+
 [display]
 
 window/size/width=800
