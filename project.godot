@@ -17,7 +17,7 @@ _global_script_class_icons={
 
 config/name="Flappy Bird"
 run/main_scene="res://scenes/main.tscn"
-config/icon="res://icon.png"
+config/icon="res://assets/kenney/tappy_plane/PNG/Planes/planeBlue1.png"
 
 [display]
 

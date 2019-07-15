@@ -1,0 +1,14 @@
+[gd_resource type="SpriteFrames" load_steps=4 format=2]
+
+[ext_resource path="res://assets/kenney/tappy_plane/PNG/Planes/planeBlue1.png" type="Texture" id=1]
+[ext_resource path="res://assets/kenney/tappy_plane/PNG/Planes/planeBlue2.png" type="Texture" id=2]
+[ext_resource path="res://assets/kenney/tappy_plane/PNG/Planes/planeBlue3.png" type="Texture" id=3]
+
+
+[resource]
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "idle",
+"speed": 12.0
+} ]
